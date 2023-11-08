@@ -1,8 +1,23 @@
-# React + Vite
+# React + Vite + ProgVar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with Tailwind, Axios, Google font and Animeted Styles.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## For pushing to Github
+git init
+git add .
+git commit -m "any commnet"
+git push origin master
+
+
+
+## For deployment
+
+1. In the vite.config.js file add this line before plugins: [react()],
+-base: "/YOUR_REPOSITORY_NAME",
+
+Change YOUR_REPOSITORY_NAME to the name of your GitHub repository.
+
+
+2. In terminal type
+-npm run deploy
