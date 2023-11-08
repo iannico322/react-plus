@@ -14,10 +14,12 @@ git push origin master
 ## For deployment
 
 1. In the vite.config.js file add this line before plugins: [react()],
--base: "/YOUR_REPOSITORY_NAME",
+## base: "/YOUR_REPOSITORY_NAME",
 
 Change YOUR_REPOSITORY_NAME to the name of your GitHub repository.
 
 
 2. In terminal type
--npm run deploy
+## npm run deploy
+
+
