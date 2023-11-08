@@ -2,11 +2,19 @@
 
 This template provides a minimal setup to get React working in Vite with Tailwind, Axios, Google font and Animeted Styles.
 
+## For running this Framework
+git clone https://github.com/iannico322/react-plus.git
+cd ./react-plus
+npm install
+code .
 
 ## For pushing to Github
-`git init `
+`git init`
+
 `git add . `
+
 `git commit -m "any commnet"`
+
 `git push origin master`
 
 
