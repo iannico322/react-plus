@@ -16,6 +16,8 @@ v4`
 `code .`
 
 ## For pushing to Github
+`Delete .Git folder`
+
 `git init`
 
 `git add . `
